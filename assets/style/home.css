@@ -1,0 +1,50 @@
+body {
+    margin: 10;
+    padding: 10;
+    background: #031321;
+    font-family: consolas;
+}
+
+h1 {
+    color: #2196f3;
+}
+
+.box {
+    background: #031321;
+    margin: auto;
+    margin-bottom: 5%;
+    max-width: 20%;
+    padding: 20px 50xp;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+    transition: all 0.3s cubic-bezier(.25, .8, .25, .1);
+}
+
+.box:hover {
+    border-top-right-radius:  10px;
+    border-top-left-radius: 10px;
+    animation-name: example;
+    opacity: 0.33;
+    animation-duration: 0.25s;
+    transform: scale(1.05);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+p {
+    color: #2196f3;
+}
+
+.dogs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+img {
+    border-top-left-radius:  10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius:  10px;
+    border-bottom-right-radius: 10px;
+}
